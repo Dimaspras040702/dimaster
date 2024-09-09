@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body {
+    display: flex;
+    /* height: 100vh; */
+    margin: 0;
+    overflow: hidden;
+}
+.sidebar {
+    width: 250px;
+    background: url(https://wallpapercave.com/wp/wp5860015.png);
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.sidebar .navbar-brand {
+    margin-bottom: 5px;
+}
+.sidebar .nav-item {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 80%;
+    height: 40px;
+    border-radius: 40px;
+    background: url(https://wallpaperaccess.com/full/627571.jpg);
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 04.s ease;
+}
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+.content {
+    flex-grow: 1;
+    overflow-y: scroll;
+    padding: 20px;
+    height: 100vh;
+    background: url('https://tse3.mm.bing.net/th?id=OIP.w4vfFzGtJNUncZ1YvcRq_AAAAA&pid=Api&P=0&h=220');
+}
+.content h1 {
+    font-family:  sans-serif;
+    font-size: auto;
+    text-align: center;
+    color: #f88be8;
+    margin-top: 30px;
+
+
+    /* font-weight: bold; */
+}
+.content p {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+    color:  #f88be8;
+}
+.text-center img {
+    width: 300px;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    align-items: center;
+    margin-top: 70px;
+}
+.col {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
